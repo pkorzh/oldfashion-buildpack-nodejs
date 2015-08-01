@@ -26,7 +26,7 @@ def requireModules(moduleNames=None):
     return moduleNames
 
 scripts = [
-    'nodejs=__init__:Buildpack',
+    'nodejs=nodejs:Buildpack',
 ]
 
 setup(
